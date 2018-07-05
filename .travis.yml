@@ -8,4 +8,4 @@ script:
   - python tests.py
 notifications:
   webhooks:
-    - http://9581b9bf.ngrok.io/payload
+    - http://9581b9bf.ngrok.io/travis
