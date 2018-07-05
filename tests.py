@@ -2,4 +2,4 @@
 import sys
 
 print "hello"
-sys.exit(0)
+sys.exit(1)
