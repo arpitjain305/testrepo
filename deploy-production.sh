@@ -1,4 +1,4 @@
 #! /bin/bash
 
 echo "deploying.."
-exit 1
+exit 0
