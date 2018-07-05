@@ -9,3 +9,9 @@ script:
 notifications:
   webhooks:
     - http://9581b9bf.ngrok.io/travis
+deploy:
+  - provider: script
+    script: ./deploy-production.sh
+    skip_cleanup: true
+    on:
+      branch: master
