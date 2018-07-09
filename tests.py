@@ -2,4 +2,5 @@
 import sys
 
 print "hello"
+print "hello"
 sys.exit(0)
